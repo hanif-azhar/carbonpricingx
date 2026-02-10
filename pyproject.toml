@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "carbonpricingx"
+version = "0.1.0"
+description = "Carbon pricing simulator and internal carbon market app"
+readme = "readme.md"
+requires-python = ">=3.9"
+dependencies = [
+  "streamlit>=1.32",
+  "pandas>=2.0",
+  "plotly>=5.0",
+  "reportlab>=4.0",
+  "openpyxl>=3.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+carbonpricingx = "carbon_pricing_x.cli:main"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["carbon_pricing_x*", "modules*"]

@@ -1,0 +1,10 @@
+department,scope,activity,amount,unit,emission_factor,source
+manufacturing,scope1,natural_gas,12000,kWh,0.0002,metered
+manufacturing,scope2,electricity,420000,kWh,0.00035,utility_bill
+logistics & shipping,scope1,diesel,55000,liters,0.00268,fleet_data
+retail,scope2,electricity,160000,kWh,0.00032,utility_bill
+R&D,scope2,electricity,90000,kWh,0.0003,utility_bill
+offices,scope2,electricity,110000,kWh,0.00028,utility_bill
+data centers,scope2,electricity,800000,kWh,0.0004,metered
+logistics & shipping,scope3,third_party_freight,26000,ton_km,0.00012,procurement
+retail,scope3,packaging,18000,kg,0.0009,erp

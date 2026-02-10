@@ -1,0 +1,6 @@
+initiative_name,max_reduction_pct,cost_per_tonne,capex,target_scope,department
+boiler_efficiency_upgrade,18,42,75000,scope1,manufacturing
+fleet_route_optimization,12,30,25000,scope1,logistics & shipping
+renewable_power_ppa,35,55,120000,scope2,data centers
+building_controls_upgrade,20,38,50000,scope2,offices
+supply_chain_packaging_redesign,25,48,45000,scope3,retail

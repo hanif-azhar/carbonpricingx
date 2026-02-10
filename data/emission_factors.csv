@@ -1,0 +1,6 @@
+scope,activity,co2_factor,ch4_factor,n2o_factor,region,year
+scope1,natural_gas,0.0002,0,0,global,2025
+scope1,diesel,0.00268,0,0,global,2025
+scope2,electricity,0.00035,0,0,global,2025
+scope3,third_party_freight,0.00012,0,0,global,2025
+scope3,packaging,0.0009,0,0,global,2025
